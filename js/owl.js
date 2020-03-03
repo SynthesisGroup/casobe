@@ -3278,6 +3278,22 @@
 	    lazyLoad:true,
 	    loop:true,
 	    margin:10,
+	    responsiveClass:true,
+		responsive:{
+		    0:{
+		        items:4,
+		        dots:true
+		    },
+		    600:{
+		        items:4,
+		        dots:true
+		    },
+		    1000:{
+		        items:6,
+		        dots:true,
+		        loop:true
+		    }
+		}
 	});
 
 	$('#owl-testimonial').owlCarousel({

@@ -1928,7 +1928,7 @@ img{
 	color:#000;
 	padding: 0px 0px 0px;
 	display: none;
-	top: 15px;
+	top: 9px;
 }
 
 .mobile-menu{
@@ -6029,7 +6029,7 @@ p.heading-title {
 	font-family: 'OSTD', sans-serif;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 45px;
+	font-size: 40px;
 	letter-spacing: 1px;
 	color: #000000;
 }
@@ -9275,7 +9275,7 @@ p.heading-title {
 		display: inline-flex;
 	}
 
-	.star-position .list-style-star {
+	.list-style-star {
 		display: inline-flex;
 		flex-direction: row; 
 		color: #1e92a9;
