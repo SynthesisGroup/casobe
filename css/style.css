@@ -5637,6 +5637,7 @@ h2.contact-us-title {
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-position:right center;
+	height: 595px;
 }
 
 .page-title:before{
@@ -5651,7 +5652,10 @@ h2.contact-us-title {
     -webkit-transition: all 900ms ease;
     -ms-transition: all 900ms ease;
     -o-transition: all 900ms ease;
+	background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+
 }
+
 
 .page-title .auto-container{
 	position:relative;
