@@ -3272,7 +3272,7 @@
 
 
 	$('#owl-gallery').owlCarousel({
-	    items:6,
+	    items:4,
 	    dots:false,
 	    center:true,
 	    lazyLoad:true,
@@ -3289,7 +3289,7 @@
 		        dots:true
 		    },
 		    1000:{
-		        items:6,
+		        items:4,
 		        dots:true,
 		        loop:true
 		    }
