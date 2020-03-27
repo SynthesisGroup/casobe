@@ -5664,6 +5664,7 @@ h2.contact-us-title {
 
 @media only screen and (max-width: 568px) {
 	.hero-content .hero-title {
+		font-size: 38px !important;
 		border-right: none;
 		border-bottom: 1px solid #ffffff;
 		padding: 1rem 0;
@@ -5684,6 +5685,7 @@ h2.contact-us-title {
 
 @media only screen and (max-width: 568px) {
 	.hero-content .hero-excerpt {
+		font-size: 18px !important;
 		margin-top: 0 !important;
 	}
 }
