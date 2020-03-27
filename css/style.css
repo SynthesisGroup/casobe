@@ -561,7 +561,7 @@ span.box-outline {
 .btn-style-dark{
 	position: relative;
 	display: inline-block;
-	font-size: 14px;
+	font-size: 12px;
 	line-height: 30px;
 	color: #ffffff;
 	padding: 8px 25px;
@@ -5312,7 +5312,7 @@ h2.contact-us-title {
 	font-style: normal;
 	font-weight: normal;
 	font-size: 40px;
-	letter-spacing: 1px;
+	letter-spacing: 0.01em;
 	color: #000;
 	text-transform: uppercase;
 	top: 0;
@@ -5323,7 +5323,7 @@ h2.contact-us-title {
 
 @media only screen and (max-width: 568px) {
 	h2.contact-us-title {
-		font-size: 30px;
+		font-size: 28px;
 	}
 }
 
@@ -5332,7 +5332,7 @@ h2.contact-us-title {
 	font-family: 'OSTD', sans-serif;
 	font-style: normal;
 	font-weight: normal;
-	letter-spacing: 1px;
+	letter-spacing: 0.01em;
 	text-transform: uppercase;
 	top: 0;
 	left: 0;
@@ -5342,7 +5342,7 @@ h2.contact-us-title {
 
 @media only screen and (max-width: 568px) {
 	.contact-form h3.contact-us-title {
-		font-size: 30px;
+		font-size: 28px;
 		margin-top: 3rem;
 	}
 }
@@ -6118,6 +6118,15 @@ p.heading-title {
 	letter-spacing: 1px;
 	color: #000000;
 }
+
+@media only screen and (max-width: 568px) {
+	.sec-title .inner-column h3.project-heading {
+		font-size: 28px;
+		letter-spacing: 0.01em;
+	}
+}
+
+
 
 .service-block-three .inner-box .lower-content h3.project-title {
 	position: relative;
@@ -9409,6 +9418,7 @@ p.heading-title {
 		font-size: 28px;
 		letter-spacing: 1px;
 		text-transform: uppercase;
+		color: #000;
 	}
 
 	h4.centered {
