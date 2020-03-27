@@ -9979,6 +9979,12 @@ h3.sub-heading-txt {
 	height: 176px;
 }
 
+@media only screen and (max-width: 568px) {
+	.content-image {
+		width: auto;	
+	}
+}
+
 .text-image {
 	font-family: 'Karla', sans-serif;
 	font-style: normal;
