@@ -80,6 +80,7 @@ body {
 
 .logo-footer-bottom {
 	margin-top: -10px;
+	max-width: 15rem;
 }
 
 a{
@@ -9807,4 +9808,105 @@ h3.sub-heading-txt {
 	color: #4A4A4A;
 	width: 400px;
 	margin-top: 3rem;
+}
+
+
+.card-amazing-location {
+	border-radius: 1px;
+	padding: 3rem;
+	border: none;
+	margin: -1rem;
+}
+
+.heading-title-sm {
+	font-family: 'OSTD', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 34px;
+	line-height: 41px;
+	letter-spacing: 0.01em;
+	text-transform: uppercase;
+	color: #000000;
+	border-bottom: 1px solid #8F8F8F;
+	width: 318px;
+	padding: 1.5rem 0; 
+}
+
+.heading-title-pt {
+	font-family: 'OSTD', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 34px;
+	line-height: 41px;
+	letter-spacing: 0.01em;
+	text-transform: uppercase;
+	color: #000000; 
+}
+
+.heading-desc {
+	font-family: 'Karla', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	letter-spacing: 0.01em;
+	color: #4A4A4A;
+}
+
+.padding-top {
+	margin-top: 11rem;
+}
+
+.border-line {
+	border-right: 1px solid #1E92A8;
+}
+
+.content-image {
+	width: 164px;
+	height: 176px;
+}
+
+.text-image {
+	font-family: 'Karla', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 171.9%;
+	text-align: center;
+	letter-spacing: 0.01em;
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 4.5rem;
+}
+
+.grid-column-3 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 1rem;
+}
+
+.image-trip-logo {
+	margin-top: 3rem;
+	margin-left: 3rem;
+}
+
+/* List */
+
+
+.list-flex {
+  	display: flex; 
+  	justify-content: space-between;
+}
+
+.list-flex .line {
+	color: #ffffff;
+	margin-top: -0.01rem;
+}
+
+.links-widget{
+ 	position:relative;
+}
+
+.link-address {
+    float: right !important;
 }
