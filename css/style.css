@@ -5321,18 +5321,30 @@ h2.contact-us-title {
 	padding-bottom: 30px; 
 }
 
+@media only screen and (max-width: 568px) {
+	h2.contact-us-title {
+		font-size: 30px;
+	}
+}
+
 .contact-form h3.contact-us-title {
 	position: relative;
 	font-family: 'OSTD', sans-serif;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 30px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	top: 0;
 	left: 0;
 	right: 0;
-	color: #4b4b4b;
+	color: #000;
+}
+
+@media only screen and (max-width: 568px) {
+	.contact-form h3.contact-us-title {
+		font-size: 30px;
+		margin-top: 3rem;
+	}
 }
 
 /*** 
