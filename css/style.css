@@ -1066,7 +1066,7 @@ img{
 	top:0px;
 	right:0px;
 	display: block;
-	z-index: 99999;
+	z-index: 9999;
 }
 
 .main-header .header-top{
@@ -6074,7 +6074,12 @@ p.heading-title {
 	position: relative;
 	padding: 50px 50px;
 	height: 100%;
+}
 
+@media only screen and (max-width: 568px) {
+	.card-full-height {
+		padding: 30px 30px;
+	}
 }
 
 .lower-content h3.about-title {
