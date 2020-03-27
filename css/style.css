@@ -5668,6 +5668,12 @@ h2.contact-us-title {
 	padding-top: 10rem !important;
 }
 
+@media only screen and (max-width: 568px) {
+	.hero-scroll-to-view  {
+		padding-top: 5rem !important;
+	}
+
+}
 
 .hero-content .hero-title {
 	font-family: 'OSTD', sans-serif;
