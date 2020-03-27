@@ -9918,9 +9918,18 @@ h3.sub-heading-txt {
 	margin: -1rem;
 }
 
+.card-explore-projects {
+	border: none;
+	padding: 2rem;
+}
+
 @media only screen and (max-width: 568px) {
 	.card-amazing-location {
 		padding: 1.5rem;
+	}
+
+	.card-explore-projects {
+		padding: 0;
 	}
 }
 
@@ -10023,12 +10032,15 @@ h3.sub-heading-txt {
 	grid-gap: 1rem;
 }
 
+
+
 @media only screen and (max-width: 568px) {
 	.grid-column-3 {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		grid-gap: 1rem;
 		margin-top: 4rem;
+		justify-items: center;
 	}
 
 }
@@ -10074,4 +10086,13 @@ h3.sub-heading-txt {
 
 .link-address {
     float: right !important;
+}
+
+
+.flickity-button {
+    position: absolute;
+    background: #1e92a9 !important;
+    border: none;
+    color: #ffffff !important;
+    border-radius: 1px !important;
 }
