@@ -5670,7 +5670,7 @@ h2.contact-us-title {
 
 @media only screen and (max-width: 568px) {
 	.hero-scroll-to-view  {
-		padding-top: 5rem !important;
+		padding-top: 6rem !important;
 	}
 
 }
@@ -9873,7 +9873,7 @@ h3.sub-heading-txt {
 	font-family: 'OSTD', sans-serif;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 50px;
+	font-size: 34px;
 	line-height: 60px;
 	letter-spacing: 0.01em;
 	text-transform: uppercase;
@@ -9918,15 +9918,21 @@ h3.sub-heading-txt {
 	margin: -1rem;
 }
 
+@media only screen and (max-width: 568px) {
+	.card-amazing-location {
+		padding: 1.5rem;
+	}
+}
+
 .heading-title-sm {
 	font-family: 'OSTD', sans-serif;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 34px;
+	font-size: 34px !important;
 	line-height: 41px;
 	letter-spacing: 0.01em;
 	text-transform: uppercase;
-	color: #000000;
+	color: #000000 !important;
 	border-bottom: 1px solid #8F8F8F;
 	width: 318px;
 	padding: 1.5rem 0; 
@@ -9935,6 +9941,7 @@ h3.sub-heading-txt {
 @media only screen and (max-width: 568px) {
 	.heading-title-sm {
 		font-size: 28px;
+		margin-top: 1rem;
 	}
 }
 
@@ -9966,8 +9973,20 @@ h3.sub-heading-txt {
 	color: #4A4A4A;
 }
 
+@media only screen and (max-width: 568px) {
+	.heading-desc {
+		margin-top: 1rem;
+	}
+}
+
 .padding-top {
 	margin-top: 11rem;
+}
+
+@media only screen and (max-width: 568px) {
+	.padding-top {
+		margin-top: 0;
+	}
 }
 
 .border-line {
