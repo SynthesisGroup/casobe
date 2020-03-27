@@ -5592,6 +5592,15 @@ h2.contact-us-title {
 	margin-top: 5rem;
 }
 
+@media only screen and (max-width: 568px) {
+	.hero-content {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 1rem;
+		margin-top: 8rem;
+	}
+}
+
 .hero-home-title {
 	font-family: 'OSTD', sans-serif;
 	font-style: normal;
@@ -5605,6 +5614,8 @@ h2.contact-us-title {
 	border-left: 1px solid #ffffff;
 	padding: 0 4rem;
 }
+
+
 
 .hero-scroll-to-view {
 	font-family: 'Karla', sans-serif;
@@ -5632,6 +5643,15 @@ h2.contact-us-title {
 	border-right: 1px solid #ffffff;
 }
 
+@media only screen and (max-width: 568px) {
+	.hero-content .hero-title {
+		border-right: none;
+		border-bottom: 1px solid #ffffff;
+		padding: 1rem 0;
+		width: 10rem;
+	}
+}
+
 .hero-content .hero-excerpt {
 	font-family: Karla;
 	font-style: normal;
@@ -5641,6 +5661,12 @@ h2.contact-us-title {
 	letter-spacing: 0.01em;
 	color: #FFFFFF;
 	margin-top: 2.5rem;
+}
+
+@media only screen and (max-width: 568px) {
+	.hero-content .hero-excerpt {
+		margin-top: 0 !important;
+	}
 }
 
 
