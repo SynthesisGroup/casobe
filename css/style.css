@@ -9874,6 +9874,13 @@ h3.sub-heading-txt {
 	color: #000000;
 }
 
+@media only screen and (max-width: 568px) {
+	.heading-title {
+		font-size: 28px;
+		line-height: 36px;
+	}
+}
+
 .heading-desc {
 	font-family: 'Karla', sans-serif;
 	font-style: normal;
@@ -9883,7 +9890,18 @@ h3.sub-heading-txt {
 	letter-spacing: 0.01em;
 	color: #4A4A4A;
 	width: 400px;
-	margin-top: 3rem;
+	margin-top: 2rem;
+}
+
+@media only screen and (max-width: 568px) {
+	.heading-desc {
+		width: 100%;
+		margin-top: 0.5rem;
+	}
+
+	.frontiers-img {
+		margin-top: 1.5rem;
+	}
 }
 
 
@@ -9908,6 +9926,13 @@ h3.sub-heading-txt {
 	padding: 1.5rem 0; 
 }
 
+@media only screen and (max-width: 568px) {
+	.heading-title-sm {
+		font-size: 28px;
+	}
+}
+
+
 .heading-title-pt {
 	font-family: 'OSTD', sans-serif;
 	font-style: normal;
@@ -9917,6 +9942,12 @@ h3.sub-heading-txt {
 	letter-spacing: 0.01em;
 	text-transform: uppercase;
 	color: #000000; 
+}
+
+@media only screen and (max-width: 568px) {
+	.heading-title-pt {
+		font-size: 28px;
+	}
 }
 
 .heading-desc {
@@ -9961,10 +9992,37 @@ h3.sub-heading-txt {
 	grid-gap: 1rem;
 }
 
+@media only screen and (max-width: 568px) {
+	.grid-column-3 {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 1rem;
+		margin-top: 4rem;
+	}
+
+}
+
+@media only screen and (max-width: 568px) {
+	.pull-right {
+		float: left;
+		margin-bottom: 3rem; 
+	}
+
+	.margin-top {
+		margin-top: 3rem;
+	}
+
+	.service-block-three {
+		margin-top: -3rem;
+	}
+
+}
+
 .image-trip-logo {
 	margin-top: 3rem;
 	margin-left: 3rem;
 }
+
 
 /* List */
 
