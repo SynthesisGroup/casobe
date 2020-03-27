@@ -5601,6 +5601,15 @@ h2.contact-us-title {
 	}
 }
 
+@media only screen and (max-width: 568px) {
+	.home-hero-img {
+		padding-top: 7rem !important;
+		border-bottom: 1px solid #ffffff;
+		padding: 1rem;
+		width: 25rem;
+	}
+}
+
 .hero-home-title {
 	font-family: 'OSTD', sans-serif;
 	font-style: normal;
@@ -5613,6 +5622,16 @@ h2.contact-us-title {
 	color: #FFFFFF;
 	border-left: 1px solid #ffffff;
 	padding: 0 4rem;
+}
+
+@media only screen and (max-width: 568px) {
+	.hero-home-title {
+		font-size: 38px !important;
+		border-left: none !important;
+		padding: 1rem 0;
+		text-align: center;
+		width: 100%;
+	}
 }
 
 
