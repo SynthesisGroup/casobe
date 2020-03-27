@@ -10030,10 +10030,7 @@ h3.sub-heading-txt {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 1rem;
-	justify-items: center;
 }
-
-
 
 @media only screen and (max-width: 568px) {
 	.grid-column-3 {
@@ -10041,6 +10038,10 @@ h3.sub-heading-txt {
 		grid-template-columns: repeat(2, 1fr);
 		grid-gap: 1rem;
 		margin-top: 4rem;
+	}
+
+	.justify-items {
+		justify-items: center;
 	}
 
 }
