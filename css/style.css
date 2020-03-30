@@ -110,17 +110,19 @@ h1,h2,h3,h4,h5,h6 {
 	background:none;
 	line-height:1.2em;
 	letter-spacing: -0.02em;
-	font-family: 'Karla', sans-serif;
+	color: #000000;
+	font-family: 'OSTD', sans-serif;
 }
 
 .text-bold {
 	position: relative;
 	font-family: 'Karla', sans-serif;
-	font-size: 18px;
+	font-size: 16px;
 	font-style: normal;
 	font-weight: normal;
-	line-height: 1.6em;
-	color: #01222b;
+	line-height: 28px;
+	letter-spacing: 0.01em;
+	color: #4A4A4A;
 }
 
 .content .gallery-title {
@@ -565,6 +567,8 @@ span.box-outline {
 	line-height: 30px;
 	color: #ffffff;
 	padding: 8px 25px;
+	padding-left: 35px;
+	padding-right: 35px;
 	font-weight: normal;
 	font-style: normal;
 	overflow: hidden;
@@ -1006,7 +1010,7 @@ span.box-outline {
 
 img{
 	display:inline-block;
-	max-width:100%;
+	width:auto;
 	height:auto;	
 }
 
@@ -2947,10 +2951,16 @@ img{
 
 .call-to-action-section{
 	position:relative;
-	padding:100px 0px 100px;
+	padding:60px 0px 60px;
 	background-position:center bottom;
 	background-repeat:no-repeat;
 	background-size: cover;
+}
+
+@media only screen and (max-width: 568px) {
+	.call-to-action-section{
+		height: 100% !important;
+	}
 }
 
 .call-to-action-section:before{
@@ -2961,6 +2971,7 @@ img{
 	width:100%;
 	height:100%;
 	display:block;
+	opacity: 30%;
 	background-color:rgba(0,0,0,0.45);
 }
 
@@ -4317,8 +4328,8 @@ img{
 
 .service-block-three .inner-box .lower-content .text{
 	position:relative;
-	font-size:15px;
-	color:#01222b;
+	font-size:16px;
+	color:#4A4A4A;
 	font-weight:400;
 	line-height:1.9em;
 	margin-top:12px;
@@ -5606,8 +5617,8 @@ h2.contact-us-title {
 
 .hero-content {
 	display: grid;
-	grid-template-columns: 30% 70%;
-	grid-gap: 2rem;
+	grid-template-columns: 35% 60%;
+	grid-gap: 3rem;
 	margin-top: 5rem;
 }
 
@@ -5687,6 +5698,13 @@ h2.contact-us-title {
 	border-right: 1px solid #ffffff;
 }
 
+@media only screen and (max-width: 1023px) {
+	.hero-content .hero-title {
+		font-size: 38px !important;
+		margin-top: 6rem !important;
+	}
+}
+
 @media only screen and (max-width: 568px) {
 	.hero-content .hero-title {
 		font-size: 38px !important;
@@ -5708,6 +5726,13 @@ h2.contact-us-title {
 	margin-top: 2.5rem;
 }
 
+@media only screen and (max-width: 1023px) {
+	.hero-content .hero-excerpt {
+		font-size: 18px !important;
+		margin-top: 6.5rem !important;
+	}
+}
+
 @media only screen and (max-width: 568px) {
 	.hero-content .hero-excerpt {
 		font-size: 18px !important;
@@ -5718,7 +5743,7 @@ h2.contact-us-title {
 
 .page-title{
 	position:relative;
-	padding:120px 0px 120px;
+	padding:100px 0px 100px;
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-position:right center;
@@ -5750,6 +5775,7 @@ h2.contact-us-title {
 
 .page-title h2 {
 	position:relative;
+	padding: 0 30px;
 	font-family: 'OSTD', sans-serif;
 	color:#ffffff;
 	font-weight:normal;
@@ -6009,7 +6035,7 @@ h2.contact-us-title {
 
 .about-page-section{
 	position:relative;
-	padding:100px 0px 100px;
+	padding:100px 0px 0px;
 	background-color:#ffffff;
 }
 
@@ -6071,14 +6097,27 @@ p.heading-title {
 }
 
 .card-full-height {
-	position: relative;
-	padding: 50px 50px;
-	height: 100%;
+	position: absolute;
+	padding: 45px 45px;
+	height: 30rem;
+	border-radius: 1px;
+	border: none;
+	margin-top: -3.8rem;
+}
+
+@media only screen and (max-width: 1023px) {
+	.card-full-height {
+		position: relative;
+		padding: 30px 30px;
+		margin-top: -6.8rem !important;
+	}
 }
 
 @media only screen and (max-width: 568px) {
 	.card-full-height {
-		padding: 30px 30px;
+		position: relative;
+		height: 100%;
+		margin-top: 0 !important;
 	}
 }
 
@@ -6092,6 +6131,19 @@ p.heading-title {
 	text-transform: uppercase;
 	color: #000000;
 	padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+	.lower-content h3.about-title {
+		font-size: 24px;
+		margin-top: 1.5rem;
+	}
+
+	.lower-content div.about-desc {
+		line-height: 28px;
+		letter-spacing: 0.01em;
+		margin-top: 1rem;
+	}
 }
 
 .about-page-section  .service-block-three .inner-box .image a:before{
@@ -6506,7 +6558,7 @@ p.heading-title {
 	margin:0px 14px 5px;
 	display:inline-block;
 	background-color: #cbdddd;
-	width: auto;
+	width: 10%;
 	padding: 15px 15px;
 	box-shadow: 0px 10px 20px rgba(0, 51, 73, 0.15)
 	text-transform:capitalize;
@@ -6515,6 +6567,25 @@ p.heading-title {
     -ms-transition: all 300ms ease;
     -o-transition: all 300ms ease;
 }
+
+@media only screen and (max-width: 1214px) {
+	.gallery-page-section .filters li {
+		width: 10%;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.gallery-page-section .filters li {
+		width: 10%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.gallery-page-section .filters li {
+		width: 23%;
+	}
+}
+
 
 .gallery-page-section .filters .filter.active,
 .gallery-page-section .filters .filter:hover{
@@ -9997,6 +10068,10 @@ h3.sub-heading-txt {
 	margin-top: 11rem;
 }
 
+.padding {
+	padding: 50px;
+}
+
 @media only screen and (max-width: 568px) {
 	.padding-top {
 		margin-top: 0;
@@ -10081,6 +10156,11 @@ h3.sub-heading-txt {
   	justify-content: space-between;
 }
 
+/*.list-flex .links {
+  	display: flex; 
+  	margin: 1rem  0 0 0;
+}*/
+
 .list-flex .line {
 	color: #ffffff;
 	margin-top: -0.01rem;
@@ -10094,6 +10174,13 @@ h3.sub-heading-txt {
     float: right !important;
 }
 
+@media only screen and (max-width: 991px) {
+	.link-address {
+	    float: left !important;
+	}
+
+}
+
 
 .flickity-button {
     position: absolute;
@@ -10101,4 +10188,18 @@ h3.sub-heading-txt {
     border: none;
     color: #ffffff !important;
     border-radius: 1px !important;
+}
+
+.logo-about-casobe {
+	margin-top: 10rem;
+}
+
+@media only screen and (max-width: 1023px) {
+	.logo-about-casobe {
+		width: 100px !important;
+	}
+}
+
+.margin-left {
+	margin-left: -12rem !important;
 }
